@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: HelloShader
-  m_Shader: {fileID: 4800000, guid: a769b5a267125884fb3218bdf20b0a23, type: 3}
+  m_Shader: {fileID: 4800000, guid: a59c114f19703be42be9271d540c78c4, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -41,7 +41,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: a7ad59554d3e15a40b2eb5b13a6c203a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -55,6 +55,30 @@ Material:
     - _ParallaxMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _bumpTex:
+        m_Texture: {fileID: 2800000, guid: fbc23e09f3fae434c9db53829cb73c59, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _cube:
+        m_Texture: {fileID: 8900000, guid: e71fc492f440446b99875b8e1df890ba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _diffuseTex:
+        m_Texture: {fileID: 2800000, guid: ccdceeb822cf29c4f988c50e5f4686bb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _emissiveTex:
+        m_Texture: {fileID: 2800000, guid: d4b447e2272063941990290f2ad5576c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _myCube:
+        m_Texture: {fileID: 8900000, guid: 393dd4c82e2a04ec08ef9f57528230c6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _myTex:
+        m_Texture: {fileID: 2800000, guid: a7ad59554d3e15a40b2eb5b13a6c203a, type: 3}
+        m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
@@ -75,11 +99,17 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
+    - _bright: 2.13
+    - _myFloat: 0.5
+    - _myRange: 1.02
+    - _scale: 3.53
+    - _slider: 1
     m_Colors:
     - _AmbientColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0.091, g: 0, b: 0.68275833, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _myColour: {r: 0.73828065, g: 0.15690638, b: 0.7735849, a: 1}
-    - _myEmission: {r: 1, g: 0.011235954, b: 0, a: 1}
-    - _myNormal: {r: 0.9056604, g: 0.54254186, b: 0.54254186, a: 1}
+    - _myColour: {r: 0.5849056, g: 0.384592, b: 0.21244211, a: 1}
+    - _myEmission: {r: 1, g: 0.8820755, b: 0.8820755, a: 1}
+    - _myNormal: {r: 0.49056602, g: 0.18280526, b: 0.18280526, a: 1}
+    - _myVector: {r: 0.5, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
