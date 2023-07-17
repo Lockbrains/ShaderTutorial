@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Blinn-Phong
-  m_Shader: {fileID: 4800000, guid: 49a87ecdcea8e66449eb5998c82bc5ae, type: 3}
+  m_Name: PBR
+  m_Shader: {fileID: 4800000, guid: 082f90fa8571a2c479b56e795b19d33f, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -48,12 +48,20 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MetallicTex:
+        m_Texture: {fileID: 2800000, guid: 38cb52aa0f4f32b4381e0af1e956ae0c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: ad5f3b3d49f324e429f26abfd74ada93, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _bumpTex:
@@ -86,18 +94,19 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Gloss: 0.441
+    - _Emission: 0
+    - _Gloss: 0.475
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _Metallic: 0
+    - _Metallic: 0.893
     - _Mode: 0
     - _MySliderValue: 10
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _RimPower: 1.91
     - _SmoothnessTextureChannel: 0
-    - _Spec: 0.033
+    - _Spec: 0.016
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _StripeSize: 6.5
@@ -110,10 +119,10 @@ Material:
     - _slider: 0
     m_Colors:
     - _AmbientColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.6226415, g: 0.6226415, b: 0.6226415, a: 1}
+    - _Color: {r: 1, g: 0.7028302, b: 0.7583455, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimColor: {r: 0.6226415, g: 0.46869758, b: 0.014684939, a: 0}
-    - _SpecColor: {r: 1, g: 0, b: 0.8745098, a: 1}
+    - _SpecColor: {r: 0.71671665, g: 1, b: 0.7028302, a: 1}
     - _myColour: {r: 0.5849056, g: 0.384592, b: 0.21244211, a: 1}
     - _myEmission: {r: 1, g: 0.8820755, b: 0.8820755, a: 1}
     - _myNormal: {r: 0.49056602, g: 0.18280526, b: 0.18280526, a: 1}
