@@ -97,7 +97,7 @@ Material:
     - _Parallax: 0.02
     - _RimPower: 1.91
     - _SmoothnessTextureChannel: 0
-    - _Spec: 0.033
+    - _Spec: 0.005
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _StripeSize: 6.5

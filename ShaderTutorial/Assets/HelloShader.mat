@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: HelloShader
-  m_Shader: {fileID: 4800000, guid: 40f54ac95e2e3624aba57e2238cc0406, type: 3}
+  m_Shader: {fileID: 4800000, guid: c5676058b2d554750b608a7290dff070, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -56,6 +56,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _bumpTex:
         m_Texture: {fileID: 2800000, guid: fbc23e09f3fae434c9db53829cb73c59, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -95,6 +99,7 @@ Material:
     - _MySliderValue: 10
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _Range: 0
     - _RimPower: 1.91
     - _SmoothnessTextureChannel: 0
     - _Spec: 0.582
@@ -102,6 +107,7 @@ Material:
     - _SrcBlend: 1
     - _StripeSize: 6.5
     - _UVSec: 0
+    - _VariableName: 0
     - _ZWrite: 1
     - _bright: 3.94
     - _myFloat: 0.5
@@ -110,10 +116,11 @@ Material:
     - _slider: 0
     m_Colors:
     - _AmbientColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 0.6886792, g: 0.5869766, b: 0.5684852, a: 1}
+    - _Color: {r: 0.2830189, g: 0.2830189, b: 0.2830189, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _RimColor: {r: 0.6226415, g: 0.46869758, b: 0.014684939, a: 0}
     - _SpecColor: {r: 1, g: 0.04411765, b: 0, a: 1}
+    - _Vector: {r: 1, g: 1, b: 1, a: 1}
     - _myColour: {r: 0.5849056, g: 0.384592, b: 0.21244211, a: 1}
     - _myEmission: {r: 1, g: 0.8820755, b: 0.8820755, a: 1}
     - _myNormal: {r: 0.49056602, g: 0.18280526, b: 0.18280526, a: 1}
